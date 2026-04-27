@@ -1,0 +1,279 @@
+class - 1
+=========
+
+    -> Python Course 
+
+        -> Full Stack Development
+
+            -> HTML / CSS / JS / SQL / Django etc 
+
+            -> Build Web Applications 
+
+        -> Data Analytics / Science / Engineering / AI 
+
+            -> Numpy / Pandas / PyTorch etc 
+
+            -> Build Visualizations, Models, Pipelines, Agents etc 
+
+        -> Cloud / DevOps / Testing 
+
+            -> OS / Sys / Boto3 etc 
+
+            -> Build Automation Scripts 
+
+    
+    -> Course Name: Core Python, which is common for all above courses 
+
+        -> Python Language Fundamentals 
+
+    
+    -> Python 
+
+        -> Python is a high-level, general-purpose programming language. 
+        It emphasizes code readability, simplicity, and ease-of-writing 
+        with the use of significant indentation, "plain English" naming, 
+        an extensive ("batteries-included") standard library, and garbage collection.
+
+
+        -> Python is a high-level programming language. 
+
+            -> High Level Languages
+
+                -> High Level languages means "Human Understandable" language (English)
+
+                -> Python Code Looks Like English
+
+                    num1 = 1.5
+                    num2 = 2.5
+                    sum = num1 + num2 
+            
+            -> Low Level Languages
+
+                -> Low Level Languages means "Machine Understandable" language 
+                (Binary Bits i.e 010101010101)
+
+                -> 01110000 01111001 01110100 01101000 01101111 01101110 -> python
+
+                
+
+        -> Python is a general-purpose programming language
+
+            -> If we can build "Multiple Types" of Applications 
+
+                -> Desktop Applications ? -> Yes
+
+                -> Web Applications ? -> Yes 
+
+                -> API's ? -> Yes 
+
+                -> Automation Scripts ? -> Yes 
+
+        
+        -> Domain Specific programming language
+
+            -> If we can build only "Specific Types" of Applications 
+
+            -> SQL (Structured Query Language) a domain-specific language used to 
+            manage data, especially in a relational database management system (RDBMS).
+
+                -> Desktop Applications ? -> No
+
+                -> Web Applications ? -> No
+
+                -> API's ? -> No
+
+                -> Automation Scripts ? -> No 
+
+
+        -> Python emphasizes code readability, simplicity, and ease-of-writing 
+        with the use of significant "indentation", "plain English" naming
+
+            -> Code Readability 
+
+                Java Code
+                ---------
+
+                class Main {
+                    public static void main(String[] args) {          
+                        int first = 10;
+                        int second = 20;
+                        // add two numbers
+                        int sum = first + second;
+                        System.out.println(first + " + " + second + " = "  + sum);
+                    }
+                }
+
+                class
+                main 
+                public
+                static 
+                void 
+                []
+                ()
+                {}
+                ;
+                etc 
+
+                
+                
+                Python Code
+                -----------
+
+                    num1 = 1.5
+                    num2 = 2.5
+                    sum = num1 + num2 
+                    print(sum)
+
+        
+            -> Indentation
+
+                -> Indentation refers to Code Structuring 
+
+                -> In Python we use "spaces" for Indentation
+
+                -> ABC Language: https://cdn-blog.adafruit.com/uploads/2020/01/adafruit_2019_3368.jpg
+
+
+        -> Python is Dynamically Typed Checked & Garbage collected 
+
+
+            -> Dynamically Typed Checked Language
+
+                -> We have a concept called "Data Types"
+
+                    -> Data Types: Categorization Of Data 
+
+                        -> Text, Whole Numbers, Decimal Numbers etc 
+
+                -> NOTE: Dynamically Typed Checked Means, we don't need to Explicitly
+                specify Data Types 
+
+                    -> product = "iphone"
+                    -> price = 120000
+                    -> rating = 4.6 
+                    -> etc 
+
+
+            -> Static Typed Checked Language
+
+                -> NOTE: Static Typed Checked Means, we need to Explicitly
+                specify Data Types
+
+                    -> String product = "iphone"
+                    -> int price = 120000
+                    -> double rating = 4.6 
+                    -> etc
+
+        -> Python is Garbage collected 
+
+            -> Garbage collected means Automatically remove "Unused" Data 
+
+                -> Python Automatically Cleans Up "Unused" Data from Memory / RAM 
+
+                    product = "iphone"
+                    price = 120000
+                    rating = 4.6
+
+                    print(product)
+                    print(price)
+
+                -> Python Cleans Up rating Memory as it's never used in the program
+
+        
+        -> Python is an Interpreted Language
+
+            -> An Interpreted Language Executes Code Line By Line 
+
+        -> Java is Compiled Language 
+
+            -> A Compiled Language Translates the code into Byte Code 
+            and then Executes all the code at once 
+
+            -> NOTE: Performance wise Compiled Languages are FASTER 
+
+    
+    -> Programming Paradigms 
+
+        -> A programming paradigm is a relatively high-level way to conceptualize and 
+        structure the implementation of a computer program.
+
+        -> Problem: How To Reach Institute ? 
+
+            -> Solution 1: I'll come by Walk 
+            -> Solution 2: I'll come by Bike 
+            -> Solution 2: I'll come by Car 
+
+        -> We have two popular types 
+
+            -> Imperative Approach 
+
+                -> Focus in on "HOW TO DO"
+
+                -> Object Oriented Approach
+
+            -> Declarative Approach 
+
+                -> Focus in on "WHAT TO DO"
+
+                -> Functional Oriented Approach 
+
+        -> NOTE: Python uses Multi Paradigm Approach i.e 
+        We can use Imperative & Declarative Approach
+
+            -> https://miro.medium.com/v2/resize:fit:1200/1*Jf5GJS1XtRsHWbZldcvOiQ.png
+
+
+    -> Key Features Of Python / Why Python ?
+
+        -> Simplicity & Easy Readability(*)
+
+        -> High Level Language 
+
+        -> Memory Safe & Garbage collected 
+
+        -> Dynamically Type Checked 
+
+        -> Multi Paradigm Approach 
+
+        -> Open Source (FREE)
+
+        -> Interpreted Language 
+
+        -> Best Prototype Language 
+
+        -> Versatility(*)
+
+            -> Data Oriented / Web Applications / API's / Automation / AI etc 
+
+        
+        -> List Of Popular Applications Where Python is used 
+
+            ->  https://en.wikipedia.org/wiki/Programming_languages_used_in_most_popular_websites  
+
+        
+        -> System Requirements For This Course (Practical Labs)
+
+            -> i3 / i5 processor 
+
+            -> 4 GB RAM / 8 GB RAM 
+
+            -> 500 GB HDD / 500 GB SSD 
+
+        
+        -> Softwares 
+
+            -> Install Python Interpreter 
+
+                -> https://python.org/ 
+
+                -> In Windows / Linux / MacOS 
+
+            
+            -> IDE: Integrated Development Environment 
+
+                -> Tool for writing code 
+                    (syntax highlight, auto code completion, install plugins etc)
+
+                -> Visual Studio Code (VS Code)
+
+                
