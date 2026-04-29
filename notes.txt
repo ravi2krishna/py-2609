@@ -277,3 +277,147 @@ class - 1
                 -> Visual Studio Code (VS Code)
 
                 
+
+class - 2
+==========
+
+    -> Setup Python Environment
+
+        -> Verify Python Installation 
+
+            -> Open Command Prompt (win) / Open Terminal (linux/macos)
+
+                -> python --version 
+
+                    -> It it say Python was not found; then start installing 
+
+        -> Install Python
+
+            -> https://python.org/ 
+
+            -> Select Standalone Installer (exe)
+
+            -> Download and Install exe file 
+
+            -> NOTE: Close and reopen the Command Prompt Again 
+
+                -> python --version 
+
+    
+    -> Where To Write Code ?? 
+
+        -> Command Line Mode (Not Recommended)
+
+            -> We write code in Command Prompt 
+
+            -> Temporary, Once we the session all the code is reset 
+
+            -> To Enter into Command Line Mode  
+
+                -> Open Command Prompt then type python 
+
+        
+        -> Script Mode (Recommended)
+
+           -> We write code in Files Using IDE's i.e Visual Studio Code (VS Code)
+
+           -> Permanent, Stored on Disk 
+
+            -> NOTE: Install Python Plugin in Visual Studio Code (VS Code)
+
+    
+    -> How To Write Code ?? 
+
+        -> Any Language has Rules 
+
+        -> Any Programming Language has Rules i.e Syntax 
+
+        -> Comparing Programming Language With English Language 
+
+            -> i taking class now today at 7:00 AM now (incorrect)
+
+            -> i'm taking class today at 7:00 AM (correct)
+
+
+        -> Learn English (Language)
+
+            -> English has 26 Alphabets (abcd......z)
+
+            -> Using these Alphabets, we learn how to form words and 
+            Complex Sentences with proper grammar over the time 
+
+
+        -> Learn Python (Programming Language)
+
+            -> Python has 35 "Keywords" (Which are equivalent to English Alphabets)
+
+            -> Using these 35 "Keywords" we form Statement using some Syntax / Rules over the time 
+
+            -> List Of Python Keywords
+
+                -> https://docs.python.org/3/reference/lexical_analysis.html#keywords
+
+                    False      await      else       import     pass
+                    None       break      except     in         raise
+                    True       class      finally    is         return
+                    and        continue   for        lambda     try
+                    as         def        from       nonlocal   while
+                    assert     del        global     not        with
+                    async      elif       if         or         yield
+
+                -> NOTE: All the above keywords, hold some special meaning to Python Interpreter
+
+    
+    -> Python Syntax / Rules / Best Practices 
+
+        -> Any Python file we write, it should have extension as .py 
+
+            -> app.py or demo.py 
+
+        -> Python Ignores any line that start with # 
+
+            -> # means comment 
+
+        -> In Python We have Functions, 
+        Functions does some task 
+
+            -> Any Function has function_name()
+
+            -> NOTE: We have print() - prints values on standard output 
+
+        -> When working with Numeric Values (1,2,10,1.5,-10 etc)
+        we can directly use print()
+
+        -> When working with text data, in python we call text data as Strings
+
+            -> Rule / Syntax: Strings should be enclosed in '' or "" 
+
+
+    
+    -> Identifiers 
+
+        -> An Identifier is a "name" used to Uniquely Identify a piece of data in code 
+
+            -> Variables 
+            -> Function
+            -> Class 
+            -> Object
+            -> etc 
+
+        -> Identifier Rules 
+
+            -> Can Contain 
+
+                -> Alphabets (a-z A-Z)
+                -> Digits (0-9)
+                -> Special Symbols (Only _ (underscore) is allowed)
+
+            -> Must Start With 
+
+                -> An Alphabet or _ (underscore)
+
+        -> NOTE: Always Use Proper Way Of Naming Identifiers 
+
+        -> NOTE: Always Use UPPER CASE for Static Data (Fixed / Doesn't Change)
+
+        
