@@ -421,3 +421,170 @@ class - 2
         -> NOTE: Always Use UPPER CASE for Static Data (Fixed / Doesn't Change)
 
         
+
+class - 3
+==========
+
+    -> Variables 
+
+        -> Variable is a named storage location in computers memory (RAM)
+        that holds some value or data.
+
+        -> Syntax 
+
+            -> variable_name = value 
+
+                -> variable_name should follow Identifier rules 
+                -> = Assignment Operator 
+                -> value is data you want to store 
+
+                    -> data = 10 (valid)
+                    -> data = ten (invalid)
+                    -> data = "ten" (valid)
+
+        -> Variables Allows You To 
+
+            -> Assign Data (Store Data)
+            -> Retrieve Data (Get Data)
+            -> Manipulate Data (Change Data)
+
+
+    -> Combine Variables with Custom Statements 
+
+        -> Concatenation: Joining Strings Using + Operator
+
+        -> NOTE: When Combining Strings With Other Data Types 
+        Like int, float, boolean etc use , Operator 
+
+        -> NOTE: To Know the Data Type of Variable 
+
+            -> we use type() function 
+
+        -> NOTE: To Know the Memory Address Of Variable
+
+            -> we use id() function 
+
+        -> Memory Model In Python 
+
+            -> if a value is already present in the memory,
+            python will not create a new memory block again.
+
+    
+        -> Manipulate Data (Change Data)
+
+            -> Then we need to use "Operators"
+
+    
+    -> Operators
+
+        -> Operators are special "Symbols" and "keywords", which Performs 
+        Operations on Variables and their Values.
+
+        -> There are different types of operators, to deal with different types of data 
+
+        -> Arithmetic Operators 
+
+            -> To Perform Mathematical Calculations 
+
+                -> + - * / % 
+
+                -> // - floor division (same as division, but rounds off result)
+                -> ** - Exponentiation (came as Calculating powers)
+
+            -> https://www.cardekho.com/carmodels/Tata/Tata_Sierra
+
+            -> NOTE: https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/152052957065/original/viv2rtnr0jqT4esoMr1XBVveIjMPzStjcw.png?1735209986
+
+
+        -> Compound Assignment Operators 
+
+            -> Assignment Operator is = (Used to Assign Value To Variable)
+
+            -> Compound Assignment Operators, Combine 
+            Arithmetic Operators with Assignment Operator for 
+            Short Hand Code (Concise Code)
+
+                -> x = 10 
+                -> x = x * 5 (long form)
+
+                -> x *= 5 (short form)
+
+                -> NOTE: x = x * 5 and x *= 5 both does same operation 
+
+            -> NOTE: In Other Languages(like java), we have Increment & Decrement Operators 
+
+                -> Increment (++) - increase the value
+                -> Decrement (--) - decrease the value 
+
+                -> NOTE: Above Operators are not supported in python 
+
+
+        -> Comparison Operators
+
+            -> Comparison Operators are used for Comparing Values
+            and result is in boolean type (True/False)
+
+            -> Used in Conditional Statement 
+
+                -> ==, !=, >, <, >=, <= 
+
+        
+        -> Logical Operators 
+
+            -> Logical Operators are used for Performing Logical Operations
+
+            -> Used to check multiple conditions and result is in boolean type (True/False)
+
+                -> and: if both conditions are True, then only result is True, otherwise False 
+                -> or: if one of the conditions is True, then result is True, otherwise False 
+                -> not: negates the result, if true then false and vice versa 
+
+                            X       Y       X and Y    X or Y    not X    not Y
+                            T       T           T         T         F       F
+                            T       F           F         T         F       T
+                            F       T           F         T         T       F
+                            F       F           F         F         T       T 
+
+
+        -> Membership Operators 
+
+            -> Used for checking if an object is in the given sequence 
+
+                -> in: return True, if given object is in sequence
+
+                -> not in: return True, if given object is not in sequence
+
+            
+        -> Identity Operators 
+
+            -> Used to check if objects are same 
+
+                -> is: return True, if objects are same  
+                
+                -> is not: return True, if objects are not same  
+
+            -> NOTE: 
+            
+                -> (Equality operator ==): Compares the values of two objects. 
+                It returns True if their contents are the same, 
+                regardless of where they are stored in memory.
+
+                -> is (Identity operator): Compares the identity (memory address) of two objects. 
+                It returns True only if both variables refer to the exact same object in memory. 
+
+
+        -> Bitwise Operators 
+
+            -> Used in Low Level Programming (1010101011)
+
+                -> & - if both bits are 1, then result is 1 
+                -> | - if one of the bits is 1, then result is 1 
+                -> etc 
+
+            -> NOTE: Implement EMI Calculation For Car Purchase 
+
+                -> https://www.cardekho.com/renault/duster
+
+                    -> Calculate EMI 
+
+                    -> https://www.moneyseth.com/media/custom_blog/2021/05/05/emi-calculator_l9Xlp4V.png
