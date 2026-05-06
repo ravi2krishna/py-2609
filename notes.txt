@@ -588,3 +588,147 @@ class - 3
                     -> Calculate EMI 
 
                     -> https://www.moneyseth.com/media/custom_blog/2021/05/05/emi-calculator_l9Xlp4V.png
+
+
+class - 4
+==========
+
+    -> Data Types 
+
+        -> Data Types are "Categorization" that defines, what kind of data a Variable can Hold 
+
+        -> Numeric Types 
+
+            -> int: 1,2,3,0,-1,-2 etc
+            
+            -> float: 1.5,2.5,1.0,-1.5 etc 
+
+            -> complex: in maths we have a + ib 
+
+                -> In Python we use same concept using a + bj 
+
+        
+        -> Boolean Types 
+
+            -> bool: represents True ? False 
+
+        -> NoneType 
+
+            -> NoneType: represents absence of value
+
+        -> String Type 
+
+            -> str: represents a sequence of characters enclosed in '' or ""
+
+
+    -> Simple Data Types
+
+        -> Holds Single Value in a Variable
+
+    -> Complex Data Types 
+
+        -> Holds Multiple Value in a Variable
+
+    
+    -> Complex Data Types 
+
+        -> Lists: List is a complex data type i.e it holds multiple values
+        and is represented using []
+
+        -> Tuples: Tuple is a complex data type i.e it holds multiple values
+        and is represented using ()
+
+        -> Sets: Set is a complex data type i.e it holds multiple values
+        and is represented using {}
+
+        -> Frozenset: Frozenset is a complex data type i.e it holds multiple values
+        and is represented using class frozenset
+
+        -> Dictionaries: Dictionary is a complex data type i.e it holds multiple "key value" pairs
+        and is represented using {}
+
+        -> NOTE: All the above data types are pre-defined in Python standard library 
+
+        -> NOTE: Based on custom Requirements coming from clients, we can create our own data types 
+
+        -> Create custom data type
+
+            -> Syntax 
+
+                class CustomDataType:
+                    Statements
+
+    
+    -> Type Conversion & Type Casting 
+
+        -> Type Conversion / Implicit Conversion [Automatic]
+
+            -> Conversion of one data type to another data type, Automatically by python 
+
+            -> Type Conversion is SAFE i.e NO DATA LOSS 
+
+        -> Type Casting / Explicit Conversion [Manual]
+
+            -> Conversion of one data type to another data type, Manually by Developer  
+
+            -> Type Casting is NOT SAFE i.e DATA LOSS 
+
+            -> Syntax 
+
+                -> using casting functions 
+
+                -> use data type function_name before variable_name / value 
+
+                    -> data_type(variable_name)
+                    -> data_type(value)
+
+    
+    -> Control Structures / Control Statements 
+
+        -> Control Structures helps you determine the "flow of execution" 
+        in a python program, allowing you to "make decisions" and "repeat tasks"
+
+            -> "make decisions"
+
+            -> "repeat tasks"
+
+        -> Python has given three types of Control Structures
+
+            -> Conditional Structures / Statements (Decision Making Statements)
+
+            -> Looping Structures / Statements (Iteration Statements)
+
+            -> Branching Structures / Statements (Jump Statements)
+
+        -> NOTE: TO work with Control Structures we need "Indentation" Knowledge 
+
+
+    -> Indentation
+
+        -> Indentation in Python is a fundamental and mandatory aspect of its "syntax", 
+        used to define the structure and hierarchy of "code blocks".
+
+        -> Unlike many other programming languages that use curly braces or keywords 
+        to define blocks, Python relies entirely on "consistent" indentation.
+
+        -> Using space as Indentation (using spaces correctly is important)
+
+        -> Python allows for any "consistent number of spaces" or 
+        a single tab(4 spaces) for indentation, the widely accepted and recommended standard.
+
+            -> At least one space is must, but recommended is 4 space i.e tab 
+
+
+
+    -> Conditional Structures / Statements (Decision Making Statements)
+
+        -> Used to run a "block of code" based on a condition result 
+
+        -> if 
+
+            -> runs a block of code, if the condition is True 
+
+                -> Syntax 
+
+                    if condition:
+                        block of code / Statements
