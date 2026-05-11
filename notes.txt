@@ -881,3 +881,76 @@ class - 5
         Iterations/Repetitions in advance
 
 
+class - 6
+==========
+
+    -> range() function
+
+        -> The range() function in Python generates a sequence of numbers. 
+        It is commonly used for iterating a specific number of times in for loops.  
+
+        -> range(start, stop, step): This form generates a sequence of numbers starting 
+        from start (inclusive) up to, but not including, the stop value, 
+        with an increment of step. The step can be positive or negative.
+
+            range(start, stop, step)
+                -> start default is 0 (included) (inclusive)
+                -> stop at this value (excluded) (exclusive)
+                -> step is increment (default step is 1)
+
+    -> Nested Loops 
+
+        -> Loops inside Loops 
+
+        -> A nested loop in Python is a "loop placed inside the body of another loop". 
+        This structure is used to handle multidimensional data (like grids or lists within lists), 
+        generate patterns, and perform actions that require "multiple layers of iteration".
+
+
+    -> Branching Structures / Statements (Jump Statements)
+
+        -> Used within loops, these statements also control the flow of execution, 
+        allowing you to exit a loop early (break) or skip the current iteration (continue).
+
+            -> break: helps you exit the loops  
+
+            -> continue: helps you skip the current iteration 
+
+            -> pass: acts as a placeholder, does nothing 
+
+
+
+    -> Strings 
+
+        -> Strings are one of the "Most Widely Used Datatype" in any programming language
+
+        -> https://www.instagram.com/ 
+            
+            (Login Page Input Fields) 
+
+        -> https://www.instagram.com/accounts/emailsignup/?next=&hl=en
+
+            (Sign Up Page Input Fields) 
+
+        -> NOTE: Most of the inputs we process from web pages of an Application are Strings 
+
+        -> In Python String is a "Sequence Of Characters" used to represent data / text 
+
+        -> Strings are widely used for Handling and Manipulating Text Information 
+
+        -> Syntax For representing Strings 
+
+            -> Strings can be enclosed in '' or " " or """ """ or ''' '''
+
+            -> Single Line Strings: Use '' or " "
+
+            -> Multi Line Strings: Use """ """ or ''' ''' 
+
+        -> Rules When Defining Strings 
+
+            -> When you use single quote in a string, enclose them in double quotes 
+            -> When you use double quote in a string, enclose them in single quotes 
+            -> When you use both single quote and double quote in a string, 
+            enclose them in triple single / double quotes 
+
+

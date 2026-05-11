@@ -60,3 +60,59 @@ for price in prices_products:
 print("Prices After Discount")
 for price in prices_products:
     print(price - 250)
+    
+
+# range(start,stop,step)
+# range(0,6,1)
+for num in range(0,6,1):
+    print(num)
+    
+for num in range(10,16,1):
+    print(num)
+    
+for num in range(6):
+    print(num)
+    
+for num in range(5,55,5):
+    print(num)
+    
+for num in range(1,10,1):
+    print(num)
+    
+for num in range(10,1,-1):
+    print(num)
+    
+# Greet Hello
+print('Hello')
+
+# Greet Hello 25 Times 
+print('Hello')
+print('Hello')
+print('Hello')
+print('Hello')
+print('Hello')
+print('Hello')
+print('Hello')
+print('Hello')
+print('Hello')
+print('Hello')
+print('Hello')
+print('Hello')
+print('Hello')
+print('Hello')
+print('Hello')
+print('Hello')
+print('Hello')
+print('Hello')
+print('Hello')
+print('Hello')
+print('Hello')
+print('Hello')
+print('Hello')
+print('Hello')
+print('Hello')
+
+
+# Greet Hello 2500 Times 
+for num in range(1,2501,1):
+    print("Hello", num)
