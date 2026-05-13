@@ -954,3 +954,93 @@ class - 6
             enclose them in triple single / double quotes 
 
 
+class - 7
+==========
+
+    -> Accessing Strings 
+
+        -> Indexing 
+
+            -> String indexing in Python allows access to "individual characters within a string" 
+            using their "position", known as the "index".
+
+            -> Python uses zero-based indexing, meaning the first character is at index 0, 
+            the second at index 1, and so on.
+
+                -> print(string[index])
+
+            -> Positive Indexing:
+            Starts from the beginning of the string.
+            The index of the first character is 0.
+
+            -> Negative Indexing:
+            Starts from the end of the string.
+            The index of the last character is -1.
+
+            0   1 2  3  4  5
+            p   y t  h  o  n
+            -6 -5 -4 -3 -2 -1    
+
+            -> If index is out of range, we get Index Error 
+
+
+        -> NOTE: To know which object is iterable use dir() 
+
+            -> dir() function allows you to know what kind of 
+            operations can be performed on a data type 
+
+            -> len() function gives number of items in container 
+
+    -> Slicing
+
+        -> String slicing in Python is a method for "extracting a portion" (substring) 
+        from a larger string. It utilizes the slice operator [] with specific 
+        indices to define the desired segment.
+
+        -> syntax 
+
+            string[start:end:step]
+
+                -> start (optional): The index where the slice begins (inclusive). 
+                    If omitted, it defaults to 0 (the beginning of the string).
+                -> end (optional): The index where the slice ends (exclusive). 
+                    The character at this index is not included. 
+                    If omitted, it defaults to the length of the string (the end of the string).
+                -> step (optional): The increment between each index during slicing. 
+                    If omitted, it defaults to 1. 
+                    A negative step value can be used to slice in reverse.
+            
+            -> Earlier we used range()
+
+                range(start,end,step)
+
+    
+    -> String Concatenation
+
+        -> Joining strings Using "+" Operator 
+
+    -> Formatted String Literals (f-strings)
+
+        -> Using Interpolation {} using f 
+
+    -> String Repetition 
+
+        -> Repeat Strings Using * Operator
+
+    -> String Immutability 
+
+        -> Immutability means cannot be modified or changed
+
+        -> Strings are Immutable in nature, meaning strings cannot be modified 
+
+
+    -> String Methods 
+
+        -> String methods in Python are built-in methods that operate on string objects
+        allowing for various manipulations, transformations, and checks(validations). 
+
+        -> It is important to note that strings in Python are immutable, 
+        meaning these methods do not modify the original string but 
+        instead return a new string with the applied changes.
+
+        -> https://docs.python.org/3/library/stdtypes.html#string-methods
