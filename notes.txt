@@ -1044,3 +1044,11 @@ class - 7
         instead return a new string with the applied changes.
 
         -> https://docs.python.org/3/library/stdtypes.html#string-methods
+
+
+class - 8
+==========
+
+    -> String Methods In Real World Applications Point Of View 
+
+    
