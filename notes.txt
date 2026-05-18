@@ -1051,4 +1051,119 @@ class - 8
 
     -> String Methods In Real World Applications Point Of View 
 
+class - 9
+==========    
+
+    -> Simple Data Types 
+
+        -> Can Hold "One Value" in a variable
+
+            -> data = 10 
+            -> data = 10.5 
+            -> data = "hello"
+
     
+    -> Complex Data Types 
+
+        -> Can Hold "Multiple Values" in a variable
+
+            -> data = 10,20,30,40,50 
+            -> data = 10.5,1.5,1.0  
+            -> data = "hello","hi","hey"
+
+    -> Python Provides Following Classes To Work With Complex Data Types 
+
+        -> List 
+
+        -> Tuple
+
+        -> Dictionary
+
+        -> Set 
+
+
+    -> Lists 
+
+        -> List is a data structure which allows you to "Store Multiple Values"
+        in a single variable, each value is separated with ,
+
+        -> Lists are represented using [] or using "list" class 
+
+    -> Accessing Data In Lists
+
+        -> Like in Strings, we have index concept in lists too 
+
+        -> Index starts from Zero 
+
+        -> Supports Both Positive and Negative Index 
+
+        -> Slicing is same as Strings 
+
+        -> Loops we can Apply 
+
+        -> Operators we can Apply 
+
+        -> Conditionals we can Apply 
+
+        -> Duplicates Allowed 
+
+        -> Insertion Order Is Preserved 
+
+
+    -> List Characteristics 
+
+        -> Mutable: Lists are Mutable in nature 
+
+        -> Order: Lists Order Preserved 
+
+        -> Duplicates: List Allows Duplicates 
+
+    
+    -> NOTE: New Requirement is to store multiple employees PAN's 
+    Do not allow users to update PAN_ID  
+
+
+    -> Tuples 
+
+        -> Tuple is a data structure which allows you to store multiple values
+        in a single variable, each value is separated with ,
+
+        -> Tuples are represented using ( ) or using "tuple" class
+
+
+    -> Accessing Data In Tuples
+
+        -> Like in Strings, we have index concept in Tuples too 
+
+        -> Index starts from Zero 
+
+        -> Supports Both Positive and Negative Index 
+
+        -> Slicing is same as Strings 
+
+        -> Loops we can Apply 
+
+        -> Operators we can Apply 
+
+        -> Conditionals we can Apply 
+
+        -> Duplicates Allowed 
+
+        -> Insertion Order Is Preserved 
+
+        -> NOTE: Tuples are "Immutable" (cannot be changed)
+
+        -> NOTE: Tuples are READ ONLY LISTS
+
+
+    -> Tuples Characteristics 
+
+        -> Immutable: Tuples are Immutable in nature 
+
+        -> Order: Tuples Order Preserved 
+
+        -> Duplicates: Tuples Allows Duplicates 
+
+    
+    -> NOTE: New Requirement is to store multiple employees PAN's 
+    Do not allow users to update PAN_ID, best choice is Tuple  
