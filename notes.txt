@@ -1167,3 +1167,61 @@ class - 9
     
     -> NOTE: New Requirement is to store multiple employees PAN's 
     Do not allow users to update PAN_ID, best choice is Tuple  
+
+
+class - 10
+==========
+
+    -> Dictionaries 
+
+        -> Dictionary is a data structure which allows you to store multiple "key values"
+        in a single variable, each value is separated with ,
+
+        -> Dictionaries are represented using { } or using "dict" class
+
+        -> Dictionaries store key value pairs
+
+            -> key:value 
+
+            -> {key1:value1,key2:value2,key3:value3}
+
+
+    -> Accessing Data In Dictionaries
+
+        -> NOTE: Like in Strings, we have DON'T have index concept in Dictionaries
+
+            -> Dictionaries doesn't Index 
+
+            -> NO Support for Both Positive and Negative Index 
+
+            -> NO Support for Slicing, as no index 
+
+        -> Loops we can Apply 
+
+        -> Operators we can Apply 
+
+        -> Conditionals we can Apply 
+
+        -> Duplicates Allowed 
+
+            -> Values can be Duplicated 
+
+            -> Keys should be unique 
+
+                -> If we add Duplicate key, latest will override the old key 
+
+            -> NOTE: Keys must be immutable objects only, whereas values can be any object 
+
+        -> Insertion Order Is Preserved 
+
+        -> NOTE: Dictionaries are "Mutable" (can be changed)
+
+    
+    -> Dictionaries Characteristics 
+
+        -> Mutable: Dictionaries are Mutable in nature 
+
+        -> Order: Dictionaries Order Preserved 
+
+        -> Duplicates: Dictionaries Allows Duplicates for Values no restrictions,
+        but for keys only unique keys allowed, latest will override previous 
