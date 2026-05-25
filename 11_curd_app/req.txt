@@ -1,0 +1,90 @@
+# Requirement for Any Application Management System (Student/Employee/Product etc)
+
+    -> https://camo.githubusercontent.com/80202f3d2bf784b929b926dcd70ad0b7451ff3aab65708a679081697855162a8/68747470733a2f2f646c2e64726f70626f782e636f6d2f73636c2f66692f3661386b6966623064317572683471736d713333692f656d706c6f7965652d6d616e6167656d656e742d73797374656d2d616264656c68616c696d2e706e673f726c6b65793d773672787469363734686f7172696c75326a776a69667578312673743d7a397a746e67727026646c3d30
+
+    -> https://www.phpcrm.com/wp-content/uploads/product-management-system.png
+
+
+-> Create Student Management System which helps Admins of an Institute To Manage Students Info 
+
+-> Student has Information like IDs, Names, Scores, SKills etc 
+
+-> System Setup 
+
+    -> Company Name: Digital Tech 
+    -> Software Name: Student Management System 
+    -> Version: v1 
+
+    -> Above Data should be READ ONLY
+
+
+-> Admin Info 
+
+    -> Admin Contact Number: 9999999999
+    -> Admin Email ID: admin@digital.com 
+
+    -> Above Data should be READ ONLY
+
+-> When this Application is Started, Display System Info 
+
+-> Core Functionalities (CRUD)
+
+    -> Add Student (CRUD - C - CREATE)
+
+        -> Prompt for Student ID and check if this id already exists in the system 
+
+            -> If ID exists, say Student ID already Exists 
+
+            -> If ID Doesn't exists, Add the Student ID in the system 
+
+                -> Take Student Name 
+
+                    -> Format Name like below 
+
+                        -> User input (ravi krishna) => Output (Ravi Krishna) store in system 
+
+                -> Take Student Scores 
+
+                    -> Take Scores till the Student says done 
+
+                        -> Enter Score or type done 
+                        -> Validate Score between 0 t0 100 
+                        -> Scores can be Duplicated 
+
+                -> Take Student Skills 
+
+                    -> Take Skills till the Student says done 
+
+                        -> Enter Skill or type done 
+                        -> Skill cannot be Duplicated (Unique Skills Only)
+
+    
+    -> Modify/Edit Student (CRUD - U - UPDATE)
+
+        -> Search By ID 
+        -> If ID present, allow to update only Name 
+        -> If ID not present, give appropriate Error Message 
+
+    -> Delete Student (CRUD - D - DELETE)
+
+        -> Remove By ID 
+        -> If ID present, Delete
+        -> If ID not present, give appropriate Error Message 
+
+    -> List All Student Info (CRUD - R - READ)
+
+        -> Display all the Students In System 
+
+        -> For Each Student 
+
+            -> ID 
+            -> Name
+            -> All Scores
+            -> Average Score 
+            -> Highest Score 
+            -> Lowest Score 
+            -> All Skills 
+            -> Skills Count  
+
+
+-> When this Application is Closed, Display Admin Info 
