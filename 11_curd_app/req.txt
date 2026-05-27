@@ -71,11 +71,11 @@
         -> If ID present, Delete
         -> If ID not present, give appropriate Error Message 
 
-    -> List All Student Info (CRUD - R - READ)
+    -> Read Student Info (CRUD - R - READ)
 
-        -> Display all the Students In System 
+        -> Display By ID 
 
-        -> For Each Student 
+        -> If ID present, Show Following Details
 
             -> ID 
             -> Name
@@ -84,7 +84,9 @@
             -> Highest Score 
             -> Lowest Score 
             -> All Skills 
-            -> Skills Count  
+            -> Skills Count 
+
+        -> If ID not present, give appropriate Error Message  
 
 
 -> When this Application is Closed, Display Admin Info 
