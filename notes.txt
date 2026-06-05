@@ -1672,3 +1672,88 @@ class - 16
                     filter(function, iterable)
 
             -> NOTE: Just Like Using For Loop with Conditions 
+
+
+class - 17
+==========
+
+    -> Implement CRUD App using Functional Style (11_crud_app)
+
+        -> Additionally Implement "Search Students By Skill" - Use Lambda & Higher Order Functions 
+
+    
+    -> NOTE: Reusability in terms of "code blocks" we go for functions 
+
+    -> NOTE: Reusability in terms of "files" we go for modules  
+
+    -> NOTE: Reusability in terms of "folders" we go for packages 
+
+    -> NOTE: Packages contain Modules and Modules Contains Functions 
+
+
+    -> Modules 
+
+        -> A Module is a "Simple Python File" which contains python definitions 
+
+            -> variables 
+            -> functions 
+            -> classes 
+            -> etc 
+
+        -> Syntax 
+
+            -> import module (imports complete module i.e loading all functionalities in module)
+
+            -> from module import specific_functionality (imports only what you need) # Recommended
+
+        
+        -> Types Of Modules 
+
+            -> Inbuilt Modules 
+
+                -> Provided as part of Standard Python Library 
+
+            -> User Defined Modules 
+
+                -> Created By User / Developer 
+                
+                -> NOTE: Here module name is nothing but file name 
+
+            -> External Modules 
+
+                -> Provided By 3rd Party Vendors 
+
+                    -> https://pypi.org/
+
+                -> The Python Package Index (PyPI) is a repository of software for the Python programming language.
+
+                -> PyPI helps you find and install software developed and shared by the Python community. 
+            
+                -> NOTE: To work with External Modules, we need pip 
+
+                    -> pip: PIP most commonly refers to Pip Installs Packages, 
+                    the standard package manager used to install and manage software libraries 
+                    in the Python programming language.
+
+                        -> Syntax 
+
+                            -> pip install software_library 
+
+                            -> pip install pandas 
+                            -> pip install numpy 
+                            -> pip install etc 
+
+                    -> Data Analyst 
+
+                        -> https://pypi.org/project/pandas/
+
+                    -> Full Stack Developer 
+
+                        -> https://pypi.org/project/requests/
+
+                    -> etc 
+
+                -> NOTE: Use case for an external module 
+
+                    -> https://medium.com/@noorfatimaafzalbutt/fetching-data-through-apis-with-python-a-comprehensive-guide-e3b335de0067
+
