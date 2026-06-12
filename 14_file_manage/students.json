@@ -1,0 +1,13 @@
+{
+    "101": {
+        "name": "Mike",
+        "scores": [
+            90,
+            90
+        ],
+        "skills": [
+            "python",
+            "java"
+        ]
+    }
+}

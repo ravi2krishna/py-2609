@@ -1963,3 +1963,24 @@ class - 19
 
             -> https://docs.aws.amazon.com/AWSCloudFormation/latest/TemplateReference/aws-resource-ec2-vpc.html
             
+
+class - 20
+==========
+
+    -> Working With JSON Data i.e for Full Stack Apps Oriented
+
+    -> Python has provided "json" module to work with JSON Data i.e JSON Files 
+
+        -> Very commonly used in "Full Stack Applications" 
+
+    -> json operations
+
+        -> json.dump() - Serializes a Python object to a JSON-formatted file (writes to a file pointer).
+
+        -> json.load()	Deserializes a JSON-formatted file to a Python object (reads from a file pointer).
+
+        -> json.dumps()	Serializes a Python object to a JSON-formatted string ("dump string").
+
+        -> json.loads()	Deserializes a JSON-formatted string to a Python object ("load string").
+
+    
